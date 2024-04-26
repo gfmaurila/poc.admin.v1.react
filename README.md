@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Register](https://github.com/gfmaurila/poc.admin.v1.react/assets/5544035/2ea2a416-b5fe-4881-89a5-b4bc5817d50c)
+![novo usuario](https://github.com/gfmaurila/poc.admin.v1.react/assets/5544035/3fd333d4-53c6-4f65-b7f7-44563e0936aa)
+![login](https://github.com/gfmaurila/poc.admin.v1.react/assets/5544035/74f6143b-a669-4454-857e-f45ada781629)
+![lista](https://github.com/gfmaurila/poc.admin.v1.react/assets/5544035/89204176-b1a1-4389-a79d-f53a54d529e3)
+![Forgot password](https://github.com/gfmaurila/poc.admin.v1.react/assets/5544035/95639077-011e-4a39-a88a-9963357c7694)
+![docker](https://github.com/gfmaurila/poc.admin.v1.react/assets/5544035/c42a7b19-d8bf-4155-a3f4-a9035be75fa7)
+![Dashboard](https://github.com/gfmaurila/poc.admin.v1.react/assets/5544035/4ca0908a-dfed-4ba9-ae24-c49c4ed0c629)
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
