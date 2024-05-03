@@ -18,54 +18,54 @@ const TeamPage = () => {
       <Profile/>
     </nav>
 
-    <div class="home-content">
-        <div class="overview-boxes">
+    <div className="home-content">
+        <div className="overview-boxes">
           
-          <div class="box-filter">
+          <div className="box-filter">
           
-            <div class="search-actions-container">
+            <div className="search-actions-container">
               <input type="text" id="filter-input" placeholder="Nome usuário..."/>
-              <button class="button button-primary">Buscar</button>
-              <button class="button button-secondary">Cancelar</button>
-              <a href='/team/usuario/novo' class="button button-default br-link">Novo</a>
+              <button className="button button-primary">Buscar</button>
+              <button className="button button-secondary">Cancelar</button>
+              <a href='/team/usuario/novo' className="button button-default br-link">Novo</a>
             </div>
             
 
           </div>
         </div>
 
-        <div class="sales-boxes">
+        <div className="sales-boxes">
           
-          <div class="recent-sales-list box">
+          <div className="recent-sales-list box">
             <div id="records-section">
               
-              <div class="list-container">
+              <div className="list-container">
 
-                <div class="list-header">
-                  <div class="list-head">ID</div>
-                  <div class="list-head">Nome</div>
-                  <div class="list-head">Email</div>
-                  <div class="list-head">Status</div>
-                  <div class="list-head">&nbsp;</div>
+                <div className="list-header">
+                  <div className="list-head">ID</div>
+                  <div className="list-head">Nome</div>
+                  <div className="list-head">Email</div>
+                  <div className="list-head">Status</div>
+                  <div className="list-head">&nbsp;</div>
                 </div>
 
-                <div class="list-item">
+                <div className="list-item">
 
-                  <div class="list-cell">01</div>
-                  <div class="list-cell">Fulano de tal</div>
-                  <div class="list-cell">fulano-de-tal@gmail.com</div>
-                  <div class="list-cell">Liberado</div>
+                  <div className="list-cell">01</div>
+                  <div className="list-cell">Fulano de tal</div>
+                  <div className="list-cell">fulano-de-tal@gmail.com</div>
+                  <div className="list-cell">Liberado</div>
                   
-                  <div class="list-cell">
+                  <div className="list-cell">
                     
-                    <div class="actions-container">
+                    <div className="actions-container">
 
-                      <a href='/team/usuario/editar' class="action-button edit-button br-link">
-                        <i class="fa fa-edit"></i>Editar
+                      <a href='/team/usuario/editar' className="action-button edit-button br-link">
+                        <i className="fa fa-edit"></i>Editar
                       </a>
 
-                      <a href='/team/usuario/remover' class="action-button remove-button br-link">
-                        <i class="fa fa-trash"></i>Remover
+                      <a href='/team/usuario/remover' className="action-button remove-button br-link">
+                        <i className="fa fa-trash"></i>Remover
                       </a>
 
                     </div>
@@ -74,22 +74,22 @@ const TeamPage = () => {
                 </div>
 
 
-                <div class="list-item">
+                <div className="list-item">
 
-                  <div class="list-cell">02</div>
-                  <div class="list-cell">Fulano de tal</div>
-                  <div class="list-cell">fulano-de-tal@gmail.com</div>
-                  <div class="list-cell">Bloqueado</div>
+                  <div className="list-cell">02</div>
+                  <div className="list-cell">Fulano de tal</div>
+                  <div className="list-cell">fulano-de-tal@gmail.com</div>
+                  <div className="list-cell">Bloqueado</div>
                   
-                  <div class="list-cell">
-                    <div class="actions-container">
+                  <div className="list-cell">
+                    <div className="actions-container">
 
-                      <a href='/team/usuario/editar' class="action-button edit-button br-link">
-                        <i class="fa fa-edit"></i>Editar
+                      <a href='/team/usuario/editar' className="action-button edit-button br-link">
+                        <i className="fa fa-edit"></i>Editar
                       </a>
 
-                      <a href='/team/usuario/remover' class="action-button remove-button br-link">
-                        <i class="fa fa-trash"></i>Remover
+                      <a href='/team/usuario/remover' className="action-button remove-button br-link">
+                        <i className="fa fa-trash"></i>Remover
                       </a>
 
                     </div>
