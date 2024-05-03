@@ -1,8 +1,7 @@
 import React from 'react';
 import Profile from '../../components/Profile';
 
-
-const TeamCreateUserPage = () => {
+const UserUpdatePage = () => {
 
   return (
     <section className="home-section">
@@ -11,7 +10,7 @@ const TeamCreateUserPage = () => {
 
       <div className="sidebar-button">
         <i className="bx bx-menu sidebarBtn"></i>
-        <span className="dashboard">Usuários - Novo</span>
+        <span className="dashboard">Usuários - Editar</span>
       </div>
       
       <Profile/>
@@ -142,4 +141,4 @@ const TeamCreateUserPage = () => {
   );
 };
 
-export default TeamCreateUserPage;
+export default UserUpdatePage;

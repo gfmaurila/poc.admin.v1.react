@@ -47,6 +47,13 @@ const Navigation = () => {
               <span className="links_name">Dashboard</span>
             </a>
           </li>
+
+          <li>
+            <a href="/article">
+              <i className="bx bx-pie-chart-alt-2"></i>
+              <span className="links_name">Artigos</span>
+            </a>
+          </li>
           
           <li>
             <a href="#">

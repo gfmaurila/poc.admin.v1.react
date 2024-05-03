@@ -3,9 +3,13 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 
-import TeamPage from './pages/Team/TeamPage';
-import TeamCreateUserPage from './pages/Team/TeamCreateUserPage';
-import TeamUpdateUserPage from './pages/Team/TeamUpdateUserPage';
+import UserPage from './pages/Team/UserPage';
+import CreateUserPage from './pages/Team/CreateUserPage';
+import UserUpdatePage from './pages/Team/UserUpdatePage';
+
+import ArticlePage from './pages/Article/ArticlePage';
+import ArticleCreatePage from './pages/Article/ArticleCreatePage';
+import ArticleUpdatePage from './pages/Article/ArticleUpdatePage';
 
 import LoginPage from './pages/Login/LoginPage';
 import ForgotPasswordPage from './pages/Login/ForgotPasswordPage';
@@ -25,9 +29,13 @@ function App() {
             <Route path="/register" element={<RegisterPage />} />
 
 
-            <Route path="/team" element={<TeamPage />} />
-            <Route path="/team/usuario/novo" element={<TeamCreateUserPage />} />
-            <Route path="/team/usuario/editar" element={<TeamUpdateUserPage />} />
+            <Route path="/team" element={<UserPage />} />
+            <Route path="/team/usuario/novo" element={<CreateUserPage />} />
+            <Route path="/team/usuario/editar" element={<UserUpdatePage />} />
+
+            <Route path="/article" element={<ArticlePage />} />
+            <Route path="/article/novo" element={<ArticleCreatePage />} />
+            <Route path="/article/editar" element={<ArticleUpdatePage />} />
 
           </Routes>        
       </Router>

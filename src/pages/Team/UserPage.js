@@ -1,7 +1,7 @@
 import React from 'react';
 import Profile from '../../components/Profile';
 
-const TeamPage = () => {
+const UserPage = () => {
 
   return (
     <section className="home-section">
@@ -110,4 +110,4 @@ const TeamPage = () => {
   );
 };
 
-export default TeamPage;
+export default UserPage;
