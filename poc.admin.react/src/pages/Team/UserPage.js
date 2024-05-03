@@ -1,7 +1,7 @@
 import React from 'react';
 import Profile from '../../components/Profile';
 
-const ArticlePage = () => {
+const UserPage = () => {
 
   return (
     <section className="home-section">
@@ -9,12 +9,12 @@ const ArticlePage = () => {
     <nav>
       <div className="sidebar-button">
         <i className="bx bx-menu sidebarBtn"></i>
-        <span className="dashboard">Artigos - Lista</span>
+        <span className="dashboard">Usuários - Lista</span>
       </div>
-      <div className="search-box">
+      {/* <div className="search-box">
         <input type="text" placeholder="Search..." />
         <i className="bx bx-search"></i>
-      </div>
+      </div> */}
       <Profile/>
     </nav>
 
@@ -24,10 +24,10 @@ const ArticlePage = () => {
           <div className="box-filter">
           
             <div className="search-actions-container">
-              <input type="text" id="filter-input" placeholder="Titulo artigo..."/>
+              <input type="text" id="filter-input" placeholder="Nome usuário..."/>
               <button className="button button-primary">Buscar</button>
               <button className="button button-secondary">Cancelar</button>
-              <a href='/article/novo' className="button button-default br-link">Novo</a>
+              <a href='/team/usuario/novo' className="button button-default br-link">Novo</a>
             </div>
             
 
@@ -60,11 +60,11 @@ const ArticlePage = () => {
                     
                     <div className="actions-container">
 
-                      <a href='/article/editar' className="action-button edit-button br-link">
+                      <a href='/team/usuario/editar' className="action-button edit-button br-link">
                         <i className="fa fa-edit"></i>Editar
                       </a>
 
-                      <a href='/article/remover' className="action-button remove-button br-link">
+                      <a href='/team/usuario/remover' className="action-button remove-button br-link">
                         <i className="fa fa-trash"></i>Remover
                       </a>
 
@@ -84,11 +84,11 @@ const ArticlePage = () => {
                   <div className="list-cell">
                     <div className="actions-container">
 
-                      <a href='/article/editar' className="action-button edit-button br-link">
+                      <a href='/team/usuario/editar' className="action-button edit-button br-link">
                         <i className="fa fa-edit"></i>Editar
                       </a>
 
-                      <a href='/article/remover' className="action-button remove-button br-link">
+                      <a href='/team/usuario/remover' className="action-button remove-button br-link">
                         <i className="fa fa-trash"></i>Remover
                       </a>
 
@@ -110,4 +110,4 @@ const ArticlePage = () => {
   );
 };
 
-export default ArticlePage;
+export default UserPage;
