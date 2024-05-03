@@ -1,4 +1,6 @@
 import React from 'react';
+import Profile from '../../components/Profile';
+
 const TeamUpdateUserPage = () => {
 
   return (
@@ -11,11 +13,7 @@ const TeamUpdateUserPage = () => {
         <span className="dashboard">Usuários - Editar</span>
       </div>
       
-      <div className="profile-details">
-        <img src="/img/admin/profile.jpg" alt="" />
-        <span className="admin_name">Prem Shahi</span>
-        <i className="bx bx-chevron-down"></i>
-      </div>
+      <Profile/>
     </nav>
 
     <div class="home-content">

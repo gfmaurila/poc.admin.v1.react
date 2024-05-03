@@ -1,4 +1,7 @@
 import React from 'react';
+import Profile from '../components/Profile';
+
+
 const HomePage = () => {
 
   return (
@@ -13,11 +16,7 @@ const HomePage = () => {
         <input type="text" placeholder="Search..." />
         <i className="bx bx-search"></i>
       </div>
-      <div className="profile-details">
-        <img src="/img/admin/profile.jpg" alt="" />
-        <span className="admin_name">Prem Shahi</span>
-        <i className="bx bx-chevron-down"></i>
-      </div>
+      <Profile/>
     </nav>
 
     <div className="home-content">
