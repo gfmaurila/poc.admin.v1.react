@@ -13,6 +13,7 @@ namespace Poc.Core.API.Controllers;
 /// Controlador responsável por operações relacionadas a registro.
 /// project/PJ000001/develop-us-001
 /// merge-develop/us-001
+/// merge-main/us-001
 /// </summary>
 [Route("api/v1/[controller]")]
 [Produces("application/json")]
